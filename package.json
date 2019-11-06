@@ -1,0 +1,35 @@
+{
+  "name": "gulp-flatten-imports",
+  "version": "1.0.0",
+  "description": "Rewrites relative import calls to use flat paths in the same directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSplyce/gulp-flatten-imports.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "flatten",
+    "rewrite",
+    "import",
+    "imports"
+  ],
+  "author": "Nikko Enriquez <EnriquezNikko@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeSplyce/gulp-flatten-imports/issues"
+  },
+  "homepage": "https://github.com/CodeSplyce/gulp-flatten-imports#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "path": "^0.12.7",
+    "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
