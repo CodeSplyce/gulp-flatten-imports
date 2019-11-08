@@ -23,6 +23,7 @@ npm install --save-dev gulp-flatten-imports
 
 This plugin is intended to be used in conjunction with  [gulp-flatten](https://github.com/armed/gulp-flatten)  for a quick-and-dirty means of creating a flat directory of a library's modules to be published to  [npm](https://www.npmjs.org/)  for cleaner requiring of the library's constituent parts.
 
+```
 var gulp = require('gulp')
 var flatten = require('gulp-flatten')
 var flattenImports= require('gulp-flatten-imports')
@@ -33,5 +34,5 @@ gulp.task('flatten', function() {
     .pipe(flattenImports())
     .pipe(gulp.dest('./build'))
 })
-
+```
 **Note:**  This assumes that every module in your project is uniquely named.
